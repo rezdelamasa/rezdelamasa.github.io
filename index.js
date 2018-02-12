@@ -44,6 +44,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });	
 
 $('#mobile-menu-button').click(function() {
+	console.log('hello');
 	$('#mobile-menu').toggleClass('hidden');
 });
 
