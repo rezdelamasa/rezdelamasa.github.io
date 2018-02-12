@@ -232,6 +232,8 @@ html, body {
 	background-color: white;
 	border-radius: 5px;
 	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .small-project-image {
