@@ -65,4 +65,3 @@ $('#contact-form').submit(function(e) {
 	}
 });
 
-$('#input-message').autoResize();
