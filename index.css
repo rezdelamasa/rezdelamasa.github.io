@@ -1,0 +1,677 @@
+/*Colors*/
+/*Mintish logo color: #37ec99*/
+/*Dark grey text color: #555*/
+/*off-white: #f9f9f9*/
+/*slightly lighter grey for small text*/
+
+
+
+* {
+	font-family: sans-serif;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#about-text-container {
+    max-width: 800px;
+   	margin: 0 auto;
+}
+
+#about-header {
+	color: #555;
+	font-size: 10vw;
+}
+
+#about-text {
+	font-size: 5vw;
+	width: 80%;
+	margin: 50px auto;
+}
+
+#about-button-container {
+	width: 100%;
+}
+
+.about-button {
+	width: 20vw;
+	min-width: 100px;
+	height: 5vh;
+	min-height: 25px;
+	font-size: 12px;
+	line-height: 5vh;
+	display: inline-block;
+    background: transparent;
+    text-align: center;
+    color: #555;
+    border: 3px solid #555;
+    /*font-size: 18px;*/
+	text-decoration: none;
+	font-weight: bold;
+	margin: 20px 40px;
+}
+
+.project-tech-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.project-tech {
+	display: inline-block;
+	color: #37ec99;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+/*Landing*/
+#landing {
+	height: 100%;
+	width: 100%;
+	background-image: url('./images/geomtricbackgroundlight.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Navbar*/
+.navbar-container {
+	z-index: 1000;
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 60px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+}
+
+#navbar-content {
+	width: 85%;
+	margin: auto;
+	height: 100%;
+}
+
+#navbar-logo {
+	height: 40px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+#navbar-list {
+	display: inline-block;
+	/*border: 2px solid red;*/
+	height: 100%;
+	float: right;
+	margin: 0;
+	line-height: 50px;
+}
+
+.navbar-item {
+	display: inline-block;	
+	margin: 0 30px;
+	font-size: 20px;
+}
+
+.navbar-link {
+	color: #555;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.navbar-link:hover {
+
+}
+
+.active {
+	border-bottom: 5px solid #37ec99;
+	color: #37ec99!important;
+}
+/*End navbar*/
+
+
+
+/*About*/
+#about-container {
+  	/*margin-top: 60px;*/
+  	height: 100%;
+  	width: 100%;
+  	padding-top: 40px;
+}
+
+#about-content {
+	width: 90%;
+	/*border: 2px solid green;*/
+	max-width: 750px;
+	margin: 0 auto;
+	color: #555;
+	text-align: center;
+}
+
+.mint-text {
+	color: #37ec99;
+}
+
+#about-button-container {
+	/*border: 2px solid blue;*/
+}
+
+.about-button {
+    
+}
+
+.about-button:hover {
+	color: #37ec99;
+	border-color: #37ec99;
+}
+
+.hidden {
+	display: none;
+}
+/*End about section*/
+/*End landing*/
+
+
+
+/*Work section*/
+#work-container {
+	background-color: #edf7f2;
+	padding: 75px 0 150px 0;
+	color: #555;
+	display: block;
+	overflow: auto;
+}
+
+#work-content {
+	height: 90%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#work-header {
+	text-align: center;
+	font-size: 48px;
+}
+
+.project {
+	background-color: white;
+	border-radius: 5px;
+	display: block;
+	overflow: hidden;
+	margin: 100px auto;
+	-webkit-box-shadow: 5px 5px 30px 0px rgba(170, 170,170,0.6);
+	-moz-box-shadow: 5px 5px 30px 0px rgba(170,170,170,0.6);
+	box-shadow: 5px 5px 30px 0px rgba(170,170,170,0.6);
+}
+
+.project-image {
+	height: 100%;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+	box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+}
+
+#bookly-img {
+	background-image: url(./images/bookly.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.column {
+	vertical-align: middle;
+    float: left;
+    height: 100%;
+}
+
+.small-project {
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.small-project-image {
+	height: 200px;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+	box-shadow: 0px 0px 30px 0px rgba(135,135,135,0.6);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.small-project-content {
+	width: 85%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#wiki-img {
+	background-image: url(./images/wikipediascreenshot.png);
+	background-position: top center;
+}
+
+#pomodoro-img {
+	background-image: url(./images/pomodoroscreen.png);
+	background-position: top center;
+}
+
+#simon-img {
+	background-image: url(./images/simonscreenshot.png);
+	background-position: top center;
+}
+
+#calc-img {
+	background-image: url(./images/calcscreenshot.png);
+	background-position: top center;
+}
+
+
+
+
+
+/*End work section*/
+
+
+/*Contact section*/
+
+#contact-container {
+	background-color: #37ec99;
+	color: #555;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	/*height: 100%;*/
+}
+
+#contact-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#contact-form {
+	margin-top: 60px;
+}
+
+#contact-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contact-input-container {
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.contact-input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 50px;
+	background-color: #37ec99;
+	border: 3px solid #555;
+	color: #555;
+	box-sizing: border-box;
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+.contact-input:focus {
+	outline-color: blue;
+}
+
+#input-message {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: #37ec99;
+	border: 3px solid #555;
+	color: #555;
+	box-sizing: border-box;
+	line-height: 18px;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+
+#input-message:focus {
+	outline-color: blue;
+}
+
+#input-submit-container {
+	text-align: center;
+}
+
+#contact-submit {
+	font-size: 16px;
+	width: 50%;
+	margin: 0 auto;
+	max-width: 250px;
+	border-radius: 100px;
+	text-align: center;
+	padding: 0;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #555;
+    opacity: 1; /* Firefox */
+	font-size: 14px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #555;
+    font-size: 14px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #555;
+    font-size: 14px;
+}
+
+/*End contact section*/
+
+/*Footer section*/
+#footer-section {
+	width: 100%;
+	height: 80px;
+	background-color: #555;
+}
+
+#footer-container {
+	width: 100%;
+	height: 100%;
+}
+
+#footer-text {
+	text-align: center;
+	line-height: 80px;
+	color: #37ec99;
+	margin: 0;
+}
+/*End footer section*/
+
+@media all and (min-width: 992px) {
+	.project {
+		font-size: 20px;
+	}
+}
+
+#about-container {
+  	text-align: center;
+  	position: relative;
+}
+
+#about-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 768px) {
+
+	
+	.project {
+		width: 100%;
+		height: 40vw;
+		max-height: 500px;
+		max-width: 1200px;
+	}
+
+	.project-content-container {
+		position: relative;
+	}
+
+	.project-content {
+		width: 85%;
+		margin: auto;
+		padding: 20px 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+}
+
+.col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #about-header {
+		font-size: 50px;
+	}
+
+	#about-text {
+		font-size: 26px;
+	}
+
+	.about-button {
+		width: 150px;
+    	height: 50px;
+    	font-size: 18px;
+    	line-height: 50px;
+	}
+
+	.navbar-container {
+		height: 60px;
+	}
+
+	#navbar-list {
+		line-height: 55px;
+	}
+
+	#navbar-logo {
+		height: 40px;
+		margin-top: 10px;
+	}
+
+	#mobile-menu {
+		display: none!important;
+	}
+
+	#mobile-menu-button {
+		display: none;
+		border: 2px solid red;
+	}
+
+	#main-project-row {
+		height: 300px;
+	}
+
+@media all and (max-width: 991px) {
+
+	.project {
+		font-size: 18px;
+	}
+
+}
+
+
+
+@media all and (max-width: 768px) {
+
+	[class*="col-"] {
+    	width: 100%;
+	}
+
+	#work-header {
+		text-align: center;
+		font-size: 48px;
+	}
+
+	#main-project {
+		display: block;
+		overflow: auto;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.project-content {
+		width: 85%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+	#bookly-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 250px;
+		background-position: top left;
+	}
+
+	#small-project-row {
+		margin: 0 auto;
+	}
+
+	.column {
+		vertical-align: middle;
+	    float: left;
+	    height: 100%;
+	}
+
+	.project-type {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	.small-project {
+		margin: 40px auto;
+	}
+}
+
+@media all and (max-width: 600px) {
+
+	#navbar-list {
+		display: none;
+	}
+
+	#mobile-menu-button {
+		display: inline-block;
+		float: right;
+		color: #555;
+		font-size: 24px;
+		height: 100%;
+		line-height: 60px;
+		background-color: transparent;
+		border: none;	
+	}
+
+	#mobile-menu-button:focus {
+		outline: none;
+	}
+
+	#mobile-menu {
+		height: 150px;
+		background-color: #f7f7f7;
+		position: fixed;
+		top: 65;
+		border-top: 1px solid lightgrey;
+		width: 100%;
+		padding: 0;
+		z-index: 1;
+		-webkit-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+		box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.75);
+	}
+
+	#mobile-menu-list {
+		list-style-type: none;
+		padding: 0;
+		position: fixed;
+		top: 60px;
+		width: 100%;
+		margin: 0;
+
+	}
+
+	.mobile-menu-item {
+		height: 50px;
+		line-height: 50px;
+
+	}
+
+	.mobile-menu-item>a {
+		color: #555;
+		text-decoration: none;
+		margin-left: 30px;
+	}
+
+	.mobile-menu-rule {
+		margin: 0;
+	}
+
+	#work-header {
+		font-size: 10vw;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	#main-project {
+		display: block;
+		overflow: auto;
+		width: 100%;
+	}
+
+	#bookly-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 250px;
+		background-position: top left;
+	}
+}
+
+@media all and (max-width: 480px) {
+
+	#about-content {
+		padding-top: 0;
+	}
+
+	#about-header {
+		font-size: 40px;
+	}
+
+	#about-text {
+		font-size: 24px;
+	}
+
+	.about-button {
+		line-height: 40px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+	#main-project {
+		display: block;
+		overflow: auto;
+		width: 100%;
+	}
+
+	#bookly-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 200px;
+		background-position: top left;
+	}
+
+	.project-content {
+		font-size: 16px;
+	}
+}
+
+
+
+

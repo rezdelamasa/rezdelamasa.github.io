@@ -1,1 +1,203 @@
-Hello World
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Style 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <div id='landing'>
+            <div class='navbar-container'>
+                <div id='navbar-content'>
+                    <img src="assets/css/imgs/logo.png" id='navbar-logo'>
+                    <ul id='navbar-list'>
+                        <li class='active navbar-item'><a class='navbar-link mint-text' href="#landing">About</a></li>
+                        <li class='navbar-item'><a class='navbar-link' href="#work-container">Work</a></li>
+                        <li class='navbar-item'><a class='navbar-link' href="#contact-container">Contact</a></li>
+                    </ul>                        <button id='mobile-menu-button'><i class="fas fa-bars"></i></button>
+                </div>
+
+                <div id='mobile-menu' class='hidden'>
+                    <ul id='mobile-menu-list'>
+                        <li class='mobile-menu-item'><a href="#about-container" class='mobile-menu-link'>About</a></li>
+                        <hr class='mobile-menu-rule'>
+                        <li class='mobile-menu-item'><a href="#work-container" class='mobile-menu-link'>Work</a></li>
+                        <hr class='mobile-menu-rule'>
+                        <li class='mobile-menu-item'><a href="#contact-container" class='mobile-menu-link'>Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id='about-container'>
+                <h1></h1>
+                <div id='about-content'>
+                    <div id='about-text-container'>
+                        <h1 id='about-header'>Hello, I'm <span class='mint-text'>Rez Delamasa</span></h1>
+                        <p id='about-text'>I am a Front End Web Developer based in New York City. I build and design clean, simple websites with the user in mind.</p>
+                    </div>
+                    
+                    <div id='about-button-container'>
+                        <a class='about-button' id='work-about-button' href="#work-container">See My Work</a>
+                        <a class='about-button' id='contact-about-button' href="#contact-container">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id='work-container'>
+            <div id='work-content'>
+                <h1 id='work-header'>My Work</h1>
+                <h1 class='project-type'>Major Project</h1>
+                <div class='project' id='main-project'>
+                    <div class='project-image column col-6' id='bookly-img'></div>
+                    <div class='project-content-container column col-6'>
+                        <div class='project-content'>
+                            <h1 class='project-header'>Bookly</h1>
+                            <ul class='project-tech-list'>
+                                <li class='project-tech'>HTML5</li>
+                                <li class='project-tech'>CSS3</li>
+                                <li class='project-tech'>Javascript</li>
+                                <li class='project-tech'>AngularJS</li>
+                                <li class='project-tech'>JQuery</li>
+                            </ul>
+                            <p class='project-desc'>Bookly is a web application I designed to practice my Angular skills. Create bookmarks with a title, description, and link then organize them in your custom folders.</p>
+                        </div>
+                    </div>
+                </div>
+                <h1 class='project-type'>Minor Projects</h1>
+                <div class='column col-6'>
+                    <div class='small-project'>
+                        <div class='small-project-image' id='calc-img'></div>
+                        <div class='small-project-content-container'>
+                            <div class='small-project-content'>
+                                <h1 class='project-header'>Calculator</h1>
+                                <ul class='project-tech-list'>
+                                    <li class='project-tech'>HTML5</li>
+                                    <li class='project-tech'>CSS3</li>
+                                    <li class='project-tech'>Javascript</li>
+                                    <li class='project-tech'>JQuery</li>
+                                </ul>
+                                <p class='project-desc'>A fully functioning basic calculator inspired by the Google Calculator and Material Design for Android.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class='column col-6'>
+                    <div class='small-project'>
+                        <div class='small-project-image' id='pomodoro-img'></div>
+                        <div class='small-project-content-container'>
+                            <div class='small-project-content'>
+                                <h1 class='project-header'>Pomodoro Clock</h1>
+                                <ul class='project-tech-list'>
+                                    <li class='project-tech'>HTML5</li>
+                                    <li class='project-tech'>CSS3</li>
+                                    <li class='project-tech'>Javascript</li>
+                                    <li class='project-tech'>JQuery</li>
+                                </ul>
+                                <p class='project-desc'>A pomodoro clock to track the pomodoro method for productivity. You can set the length of the work session and the break session that follows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class='column col-6'>
+                    <div class='small-project'>
+                        <div class='small-project-image' id='wiki-img'></div>
+                        <div class='small-project-content-container'>
+                            <div class='small-project-content'>
+                                <h1 class='project-header'>Wikipedia Viewer</h1>
+                                <ul class='project-tech-list'>
+                                    <li class='project-tech'>HTML5</li>
+                                    <li class='project-tech'>CSS3</li>
+                                    <li class='project-tech'>Javascript</li>
+                                    <li class='project-tech'>JQuery</li>
+                                </ul>
+                                <p class='project-desc'>A simple wikipedia viewer. Enter a search query and the 10 most relevant results will display. Very basic design and made mostly to practice with APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class='column col-6'>
+                    <div class='small-project'>
+                        <div class='small-project-image' id='simon-img'></div>
+                        <div class='small-project-content-container'>
+                            <div class='small-project-content'>
+                                <h1 class='project-header'>Simon Game</h1>
+                                <ul class='project-tech-list'>
+                                    <li class='project-tech'>HTML5</li>
+                                    <li class='project-tech'>CSS3</li>
+                                    <li class='project-tech'>Javascript</li>
+                                    <li class='project-tech'>JQuery</li>
+                                </ul>
+                                <p class='project-desc'>Test your memory with this remake of the classic Simon Game. Includes a hard mode, score tracker, and even sounds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id='contact-container'>
+            <div id='contact-content'>
+                <h1 id='contact-header'>Contact Me</h1>
+                <form id='contact-form' action="https://formspree.io/r1del165@gmail.com" method="POST">
+                    <div class='contact-input-container column col-6'>
+                        <input class='contact-input' type="text" id='input-name' name="name" required="true" placeholder="Name *">
+                    </div>
+                    <div class='contact-input-container column col-6'>
+                        <input id='input-email' class='contact-input' type="email" name="_replyto" placeholder="Email *" required="true">
+                    </div>
+                    <div class='contact-input-container column col-6'>
+                        <input id='input-number' class='contact-input' type="tel" name="number" placeholder="Number"> 
+                    </div>
+                    <div class='contact-input-container column col-6'>
+                        <input id='input-company' class='contact-input' type="text" name="company" placeholder="Company"> 
+                    </div>
+                    <div class='contact-input-container column col-12'>
+                        <textarea id='input-message' name="message" placeholder="Message *" required="true"></textarea> 
+                    </div>
+                    <div id='input-submit-container' class='contact-input-container'>
+                        <input id='contact-submit' class='contact-input' type="submit" name="submit" value="Send">
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_next" value="#" />
+                </form>
+            </div>
+        </div>
+
+        <section id='footer-section'>
+            <div id='footer-container'>
+                <p id='footer-text'>Created and designed by Rez Delamasa© 2018</p>
+            </div>
+        </section>
+        
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.5.0/alertify.min.js'></script>
+
+        <script type="text/javascript" src='assets/js/app.js'></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.-->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
