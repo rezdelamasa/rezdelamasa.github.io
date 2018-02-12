@@ -228,12 +228,18 @@ html, body {
     height: 100%;
 }
 
+.project-type {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
 .small-project {
 	background-color: white;
 	border-radius: 5px;
 	overflow: hidden;
 	width: 90%;
-	margin: 40px auto;
+	margin: 50px auto;
 }
 
 .small-project-image {
