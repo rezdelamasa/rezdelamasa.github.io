@@ -236,7 +236,7 @@ html, body {
 }
 
 #weather-img {
-	background-image: url(./images/screencapture-rezdelamasa-github-io-weather-app-2018-04-07-20_48_11.png);
+	background-image: url(./images/weather-img.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -557,6 +557,13 @@ html, body {
 		min-height: 250px;
 		background-position: top left;
 	}
+	
+	#weather-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 250px;
+		background-position: top left;
+	}
 
 	#small-project-row {
 		margin: 0 auto;
@@ -672,6 +679,13 @@ html, body {
 		min-height: 250px;
 		background-position: top left;
 	}
+	
+	#weather-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 250px;
+		background-position: top left;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -701,6 +715,13 @@ html, body {
 	}
 
 	#bookly-img {
+		width: 100%;
+		height: 40vw;
+		min-height: 200px;
+		background-position: top left;
+	}
+	
+	#weather-img {
 		width: 100%;
 		height: 40vw;
 		min-height: 200px;
