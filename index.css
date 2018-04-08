@@ -235,6 +235,13 @@ html, body {
 	background-position: top left;
 }
 
+#weather-img {
+	background-image: url(./images/screencapture-rezdelamasa-github-io-weather-app-2018-04-07-20_48_11.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
 .column {
 	vertical-align: middle;
     float: left;
