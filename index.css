@@ -237,7 +237,7 @@ html, body {
 
 #weather-img {
 	background-image: url(./images/react-weather.png);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
