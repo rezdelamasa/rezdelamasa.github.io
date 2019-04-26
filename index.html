@@ -1,218 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Rez Delamasa Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rez Delamasa Portfolio</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+	<link rel="manifest" href="./images/site.webmanifest">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="landing">
+		<div class="container">
+			<div class="hero">
+				<h1 class="hero__logo">
+					RD
+				</h1>
+				<div class="row">
+					<div class="column column--image">
+						<img class="hero-image" src="https://res.cloudinary.com/rezdelamasa/image/upload/v1556245451/Portfolio/profile-pic.jpg">
+					</div>
+					<div class="column hero__text">
+						<h1 class="hero__heading">
+						Hi, I'm Rez
+						</h1>
+						<p class="hero-paragraph">
+							I'm a front end developer from NYC, utilizing <span class="hero-span span-html">HTML</span>, <span class="hero-span span-css">CSS</span>, and <span class="hero-span span-js">Javascript</span> with experience using Bootstrap, jQuery, React, AngularJS, SASS, and other modern web technologies.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="projects">
+		<div class="container">
+			<h1 class="projects__heading">My Work</h1>
+			<div class="row">
+				<div class="column">
+					<div id="TSF" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">TSF Engineers, P.C.</h2>
+							<h4 class="project__description">TSF Engineers is an MEP Engineering Consulting Firm in NYC. Their website has a portfolio with images of their work along with filters on the portfolio page for easy navigation.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="http://www.tsfengineers.com" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="TheBugShelter" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">The Bug Shelter, LLC</h2>
+							<h4 class="project__description">The Bug Shelter is a company in St. Louis that specializes in creating bug screen doors for industrial and commercial use.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="demo.html" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Clarity" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Clarity</h2>
+							<h4 class="project__description">An app for those with sensitive noses and skin. A forecast app that tells you about a location's Pollen Count and UV Index currently and for the next week.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="https://rezdelamasa.github.io/Clarity/" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Bookly" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Bookly</h2>
+							<h4 class="project__description">A bookmark manager I created to learn Angular where users can save, delete, organize, or move bookmarks.</h4>
+							<p class="project__info">HTML, CSS, Javascript, Bootstrap, Angular</p>
+							<a class="project__link" href="https://rezdelamasa.github.io/bookly/" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Weather" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">React Weather App</h2>
+							<h4 class="project__description">A barebones weather app built to learn React inspired but Google's weather app. You get info such as the current conditions, tomorrow's forecast, and a weekly forecast.</h4>
+							<p class="project__info">HTML, CSS, Javascript, React</p>
+							<a class="project__link" href="https://rezdelamasa.github.io/weather-app/" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Simon" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Simon</h2>
+							<h4 class="project__description">A remake of the classic Simon memory game. Test your memory and beat all 20 rounds!</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="https://codepen.io/rdelamasa/pen/RxwPdX" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Calculator" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Calculator</h2>
+							<h4 class="project__description">A functional calculator based off the Google Calculator app found on Android devices inspired by Material Design guidelines.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="https://codepen.io/rdelamasa/pen/LQxrBY" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Pomodoro" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Pomodoro Timer</h2>
+							<h4 class="project__description">A simple Pomodoro timer used to increase productivity by giving you 5 minute breaks in between 25 minute work sessions.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="https://codepen.io/rdelamasa/pen/ZaBYWj" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div id="Wikipedia" class="project">
+						<div class="project__overlay fade">
+							<h2 class="project__header">Wikipedia Search Engine</h2>
+							<h4 class="project__description">My very first non-static website where the user can search for a query and the app will give the user the 10 most relevant Wiki pages. There's also a random button if you're feeling adventurous and curious.</h4>
+							<p class="project__info">HTML, CSS, Javascript</p>
+							<a class="project__link" href="https://codepen.io/rdelamasa/pen/LzXWqY" target='_blank'>Live Demo</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div class="about">
+		<div class="container">
+			<h1 class="about__heading">About Me</h1>
+			<h3 class='about__subheading'>Web Developer, Tech Enthusiast, New Yorker</h3>
+			<div class="about__content">
+				<div class="about__section">
+					<h4 class="about__section-heading">My Web Development Journey</h4>
+					<div class="about__text">
+						<p class='about__paragraph'>
+							I started web development in 2016 with an online bootcamp. This is when I learned HTML, CSS, and JavaScript. I then learned to create responsive websites with Bootstrap and DOM manipulation with jQuery. While I no longer use these technologies, they have created a solid foundation for creating my own responsive breakpoints and manipulating the DOM. I then started another online course where I learned backend development with MongoDB, Express, and Node. I created a simple Facebook-like app to learn about RESTful methodologies. However, it was at this point I realized I favored the front end side of things and creating modern and clean websites with the user experience in mind.
+							<br>
+							<br>
+							I went on to learn more about UX and UI design, practicing my front end skills while also reading books to supplement my learning. At this point, I felt very confident in my HTML, CSS, and JavaScript and started my journey of learning JavaScript libraries such as Angular and React. With Angular, I created a bookmark manager called Bookly in which I learned the fundamentals of CRUD. Bookly can be found in my list of projects with a live demo available. Next up was React, with which I made a simple weather app designed to look like the weather app you would find on the mobile Google app. This can also be found on my portfolio. Nowadays, I have been working with clients creating websites for their businesses. This has given me real world experience working with clients and time management as I for once had to work with deadlines.
+							My clientele work can also be found on my portfolio.
+						</p>
+					</div>
+				</div>
+				<div class="about__section">
+					<h4 class="about__section-heading">More About Me (Feel free to read this but I know it's long)</h4>
+					<div class="about__text">
+						<p class='about__paragraph'>
+							I was born in raised in New York City, which also means I'm a diehard Knicks fan (unfortunately; let's not talk about it). When I'm not pleading to the basketball gods for some help, I like to code, play video games, play basketball, skateboard, play the ukulele, or tinker with my mechanical keyboard collection.
+							<br>
+							<br>
+							Since I was young, I've always been intrigued by technology and innovations. I was always playing video games or sitting at a computer, even making some of my own gadgets. I once used to aspire to be a video game developer. As I grew up, I became more intrigued in mechanical engineering and went to a high school with an engineering program. It was there where I explored my love for design and tinkering. In my engineering class, we learned 2D and 3D modeling with various programs. We also had a couple 3D printers which allowed us to bring our creations to life. I was always one to pay great attention to details. I however discovered my new love for programming when I joined my high school's robotics team. It not only allowed me another outlet for tinkering with mechanics but it introduced me to programming, allowing me to give life to my creations. 
+							<br>
+							<br>
+							Our robotics team, the RoboWizards, went on to win the FIRST New York City FRC Regional in 2012 with our robot Lucy. For my Senior year project, I wanted to create something that would allow me to employ my passion for mechanics and made a 3D model of an excavator that actually worked with pistons, cables, buttons, and switches. Then with my new knowledge of programming, I was actually able to truly bring my creation to life. My 3D printed excavator then became a full fledge robot which could move and pick up materials with its bucket.
+							Ever since then, I've had a love for programming and knew that that was the kind of career I wanted. As I continued on to college, I continued to explore my newfound passion for programming and became a computer science major. I was enthused by web development, especially front end because I enjoyed the idea of building something tangible that people could visit and interact with. Front end development seemed especially right for as I have always appreciated great design and attention to detail, whether that was a video game's UI, a marvel of mechanical engineering, or more recently, a website's simple yet functional UI.
+							<br>
+							<br>
+							But anyways, that's me! Video gamer, basketball lover, tech enthusiast, tinkerer, once engineer and now aspiring web developer. This was pretty long, but thanks for reading!
+						</p>
+					</div>				
+				</div>
+			</div>
+			<h2 class="about__final">
+				Hit me up if you'd like to work with me or even learn more about me.
+			</h2>
+			<h2 class="about__email">
+				rezdelamasa@gmail.com
+			</h2>			
+		</div>
+	</div>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-        <link rel="stylesheet" type="text/css" href="./index.css">
-    </head>
-    <body>
-
-        <div id='landing'>
-            <div class='navbar-container'>
-                <div id='navbar-content'>
-                    <img src="./images/logo.png" id='navbar-logo'>
-                    <ul id='navbar-list'>
-                        <li class='active navbar-item'><a class='navbar-link mint-text' href="#landing">About</a></li>
-                        <li class='navbar-item'><a class='navbar-link' href="#work-container">Work</a></li>
-                        <li class='navbar-item'><a class='navbar-link' href="#contact-container">Contact</a></li>
-                    </ul>                        
-                    <button id='mobile-menu-button'><i class="fas fa-bars"></i></button>
-                </div>
-
-                <div id='mobile-menu' class='hidden'>
-                    <ul id='mobile-menu-list'>
-                        <li class='mobile-menu-item'><a href="#about-container" class='mobile-menu-link'>About</a></li>
-                        <hr class='mobile-menu-rule'>
-                        <li class='mobile-menu-item'><a href="#work-container" class='mobile-menu-link'>Work</a></li>
-                        <hr class='mobile-menu-rule'>
-                        <li class='mobile-menu-item'><a href="#contact-container" class='mobile-menu-link'>Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div id='about-container'>
-                <h1></h1>
-                <div id='about-content'>
-                    <div id='about-text-container'>
-                        <h1 id='about-header'>Hello, I'm <span class='mint-text'>Rez Delamasa</span></h1>
-                        <p id='about-text'>I am a Front End Web Developer based in New York City. I build and design clean, simple websites with the user in mind.</p>
-                    </div>
-                    
-                    <div id='about-button-container'>
-                        <a class='about-button' id='work-about-button' href="#work-container">See My Work</a>
-                        <a class='about-button' id='contact-about-button' href="#contact-container">Contact Me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id='work-container'>
-            <div id='work-content'>
-                <h1 id='work-header'>My Work</h1>
-                <h1 class='project-type'>Major Project</h1>
-                <div class='project' id='main-project'>
-                    <div class='project-image column col-6' id='bookly-img'></div>
-                    <div class='project-content-container column col-6'>
-                        <div class='project-content'>
-                            <h1 class='project-header'>Bookly</h1>
-                            <ul class='project-tech-list'>
-                                <li class='project-tech'>HTML5</li>
-                                <li class='project-tech'>CSS3</li>
-                                <li class='project-tech'>Javascript</li>
-                                <li class='project-tech'>AngularJS</li>
-                                <li class='project-tech'>JQuery</li>
-                            </ul>
-                            <p class='project-desc'>Bookly is a web application I designed to practice my Angular skills. Create bookmarks with a title, description, and link then organize them in your custom folders.</p>
-                            <p class="project-links"><a href="https://rezdelamasa.github.io/bookly/" target="_blank">Live</a> | <a href="https://github.com/rezdelamasa/rezdelamasa.github.io" target="_blank">Git</a></p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class='project' id='main-project'>
-                    <div class='project-image column col-6' id='weather-img'></div>
-                    <div class='project-content-container column col-6'>
-                        <div class='project-content'>
-                            <h1 class='project-header'>React Weather App</h1>
-                            <ul class='project-tech-list'>
-                                <li class='project-tech'>HTML5</li>
-                                <li class='project-tech'>CSS3</li>
-                                <li class='project-tech'>Javascript</li>
-                                <li class='project-tech'>React</li>
-                            </ul>
-                            <p class='project-desc'>I created this simple weather app using React as a way to learn the framework and used the APIXU api to fetch the weather data. The user enters their zip code and they will be shown the current weather, tomorrow's weather and a quick glance at the 7 day forecast. Only core functionality of app is complete and design is still a work in progress. Also please refer to git for todo's.</p>
-                            <p class="project-links"><a href="https://rezdelamasa.github.io/weather-app/" target="_blank">Live</a> | <a href="https://github.com/rezdelamasa/weather-app" target="_blank">Git</a></p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <h1 class='project-type'>Minor Projects</h1>
-
-                <div class='column col-6'>
-                    <div class='small-project'>
-                        <div class='small-project-image' id='simon-img'></div>
-                        <div class='small-project-content-container'>
-                            <div class='small-project-content'>
-                                <h1 class='project-header'>Simon Game</h1>
-                                <ul class='project-tech-list'>
-                                    <li class='project-tech'>HTML5</li>
-                                    <li class='project-tech'>CSS3</li>
-                                    <li class='project-tech'>Javascript</li>
-                                    <li class='project-tech'>JQuery</li>
-                                </ul>
-                                <p class='project-desc'>Test your memory with this remake of the classic Simon Game. Includes a hard mode, score tracker, and even sounds.</p>
-                                <p class="project-links"><a href="https://codepen.io/rdelamasa/full/RxwPdX/">Codepen</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='column col-6'>
-                    <div class='small-project'>
-                        <div class='small-project-image' id='calc-img'></div>
-                        <div class='small-project-content-container'>
-                            <div class='small-project-content'>
-                                <h1 class='project-header'>Calculator</h1>
-                                <ul class='project-tech-list'>
-                                    <li class='project-tech'>HTML5</li>
-                                    <li class='project-tech'>CSS3</li>
-                                    <li class='project-tech'>Javascript</li>
-                                    <li class='project-tech'>JQuery</li>
-                                </ul>
-                                <p class='project-desc'>A fully functioning calculator with basic operations inspired by the Google Calculator and Material Design for Android.</p>
-                                <p class="project-links"><a href="https://codepen.io/rdelamasa/full/LQxrBY/">Codepen</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class='column col-6'>
-                    <div class='small-project'>
-                        <div class='small-project-image' id='pomodoro-img'></div>
-                        <div class='small-project-content-container'>
-                            <div class='small-project-content'>
-                                <h1 class='project-header'>Pomodoro Clock</h1>
-                                <ul class='project-tech-list'>
-                                    <li class='project-tech'>HTML5</li>
-                                    <li class='project-tech'>CSS3</li>
-                                    <li class='project-tech'>Javascript</li>
-                                    <li class='project-tech'>JQuery</li>
-                                </ul>
-                                <p class='project-desc'>A pomodoro clock to track the pomodoro method for productivity. You can set the length of the work session and the break session that follows.</p>
-                                <p class="project-links"><a href="https://codepen.io/rdelamasa/full/ZaBYWj/">Codepen</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class='column col-6'>
-                    <div class='small-project'>
-                        <div class='small-project-image' id='wiki-img'></div>
-                        <div class='small-project-content-container'>
-                            <div class='small-project-content'>
-                                <h1 class='project-header'>Wikipedia Viewer</h1>
-                                <ul class='project-tech-list'>
-                                    <li class='project-tech'>HTML5</li>
-                                    <li class='project-tech'>CSS3</li>
-                                    <li class='project-tech'>Javascript</li>
-                                    <li class='project-tech'>JQuery</li>
-                                </ul>
-                                <p class='project-desc'>A simple wikipedia viewer. Enter a search query and the 10 most relevant results will display. Very basic design and made mostly to practice with APIs.</p>
-                                <p class="project-links"><a href="https://codepen.io/rdelamasa/full/ZaBYWj/">Codepen</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div id='contact-container'>
-            <div id='contact-content'>
-                <h1 id='contact-header'>Contact Me</h1>
-                <form id='contact-form' action="https://formspree.io/rezdelamasa@gmail.com" method="POST">
-                    <div class='contact-input-container column col-6'>
-                        <input class='contact-input' type="text" id='input-name' name="name" required="true" placeholder="Name *">
-                    </div>
-                    <div class='contact-input-container column col-6'>
-                        <input id='input-email' class='contact-input' type="email" name="_replyto" placeholder="Email *" required="true">
-                    </div>
-                    <div class='contact-input-container column col-6'>
-                        <input id='input-number' class='contact-input' type="tel" name="number" placeholder="Number"> 
-                    </div>
-                    <div class='contact-input-container column col-6'>
-                        <input id='input-company' class='contact-input' type="text" name="company" placeholder="Company"> 
-                    </div>
-                    <div class='contact-input-container column col-12'>
-                        <textarea id='input-message' name="message" placeholder="Message *" required="true"></textarea> 
-                    </div>
-                    <div id='input-submit-container' class='contact-input-container'>
-                        <input id='contact-submit' class='contact-input' type="submit" name="submit" value="Send">
-                    </div>
-                    <input type="text" name="_gotcha" style="display:none" />
-                    <input type="hidden" name="_next" value="thankyou.html" />
-                </form>
-            </div>
-        </div>
-
-        <section id='footer-section'>
-            <div id='footer-container'>
-                <p id='footer-text'>Created and designed by Rez Delamasa© 2018</p>
-            </div>
-        </section>
-        
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
-        <script type="text/javascript" src='index.js'></script>
-    </body>
+	<script type="text/javascript" src="script.js"></script>
+</body>
 </html>
