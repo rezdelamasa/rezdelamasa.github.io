@@ -257,6 +257,17 @@ body {
 
 /*Project ids and respective backgrounds*/
 
+#RiserSizer {
+	background-image: url('https://res.cloudinary.com/rezdelamasa/image/upload/v1561940115/Portfolio/risersizerdemo.png');
+	background-size: cover;
+	background-position: top center;
+}
+
+#RiserSizer .project__overlay {
+	background-color: rgba(14, 71, 161,0.8);
+	color: white;
+}
+
 #TSF {
 	background-image: url('https://res.cloudinary.com/rezdelamasa/image/upload/v1556245452/Portfolio/tsf.png');
 	background-size: cover;
