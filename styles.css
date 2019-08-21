@@ -257,6 +257,13 @@ body {
 
 /*Project ids and respective backgrounds*/
 
+
+#ApexLegend {
+	background-image: url('https://res.cloudinary.com/rezdelamasa/image/upload/v1566408204/Portfolio/apex-legend.png');
+	background-size: cover;
+	background-position: center center;
+}
+
 #RiserSizer {
 	background-image: url('https://res.cloudinary.com/rezdelamasa/image/upload/v1561940115/Portfolio/risersizerdemo.png');
 	background-size: cover;
