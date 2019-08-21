@@ -264,6 +264,10 @@ body {
 	background-position: center center;
 }
 
+#ApexLegend .project__overlay {
+	background-color: rgba(205,202,190,0.8);
+}
+
 #RiserSizer {
 	background-image: url('https://res.cloudinary.com/rezdelamasa/image/upload/v1561940115/Portfolio/risersizerdemo.png');
 	background-size: cover;
